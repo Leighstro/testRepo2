@@ -1,0 +1,29 @@
+{
+  "name": "testrepo2-main",
+  "version": "1.0.0",
+  "description": "testRepo3",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Leighstro/testRepo2.git"
+  },
+  "author": "Leigh Drish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leighstro/testRepo2/issues"
+  },
+  "homepage": "https://github.com/Leighstro/testRepo2#readme",
+  "devDependencies": {
+    "cypress": "^5.4.0",
+    "cypress-cucumber-preprocessor": "^3.0.0"
+  },
+  "dependencies": {
+    "cosmiconfig": "^7.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
